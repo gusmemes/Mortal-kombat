@@ -1,17 +1,17 @@
 * {
     box-sizing: border-box;
     font-size:medium;
-
+  
 }
 
 html {
     font-size: 62.5%;
     overflow-x: hidden;
-
+    font-family:  "Roboto",'Times New Roman', Times, serif;
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+  
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -52,16 +52,6 @@ h3 {
     justify-content: start;
     font-size: x-large;
 
-}
-
-.texto1 {
-    width: 80%;
-    height: auto;
-}
-
-.texto2 {
-    width: 69%;
-    height: auto;
 }
 
 .texto-logo {
@@ -128,7 +118,7 @@ section {
 }
 
 .img4 {
-    width: 90rem;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -137,7 +127,7 @@ section {
 }
 
 .img5 {
-    width: 90rem;
+    width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
