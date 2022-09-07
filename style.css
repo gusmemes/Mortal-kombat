@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    font-size:medium;
+
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: black;
+    background: white;
+
+}
+
+header {
+    padding: 1px;
+    background: linear-gradient(90deg, #000000 0%, #243d6e 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.p-4{
+ margin-bottom: -1rem;   
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+
+.historia-texto {
+    display: flex;
+    text-align: initial;
+    justify-content: start;
+    font-size: x-large;
+
+}
+
+.texto1 {
+    width: 80%;
+    height: auto;
+}
+
+.texto2 {
+    width: 69%;
+    height: auto;
+}
+
+.texto-logo {
+    color: yellow;
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+
+}
+
+nav a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside {
+    flex: 3rem;
+    background-color: beige;
+    padding: 2rem;
+}
+
+section {
+    flex: 70%;
+    background-color: white;
+    padding: 2rem;
+
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria .col-lg-4 {
+    padding: 20px;
+}
+
+#galeria img:hover {
+    border: 5px solid white;
+}
+
+.img-logo {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: auto;
+}
+
+.img3 {
+    width: 100%;
+    height: auto;
+}
+
+.img4 {
+    width: 90rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.img5 {
+    width: 90rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.sobre-nosotros {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 0;
+
+}
+
+.personajes {
+    display: flex;
+    flex-direction: column;
+    font-size:xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px 0;
+    color: rgba(43, 35, 35, 0.801);
+    font-weight: 200;
+    line-height: 2rem;
+
+}
+
+footer {
+    padding: 2px;
+    text-align: center;
+    background-color: #333;
+}
+
+
+.redes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.redes,
+.facebook,
+.instagram,
+.twitter {
+    color: rgba(238, 234, 18, 0.993);
+    padding: 1rem;
+}
+
+
+.facebook:hover {
+    color: rgb(30, 255, 0);
+}
+
+.instagram:hover {
+    color: rgb(30, 255, 0);
+}
+
+.twitter:hover {
+    color: rgb(30, 255, 0);
+}
+
+.menu-nav:hover {
+    color: yellow;
+}
+
+
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .img4 {
+        width: 100%;
+    }
+
+    .img5 {
+        width: 100%;
+    }
+
+    .img3 {
+        width: 100%;
+    }
+
+    .texto1 {
+        width: 80%;
+    }
+
+    .texto2 {
+        width: 80%;
+    }
+
+    h2 {
+        justify-content: flex-start;
+    }
+
+    h3 {
+        justify-content: flex-start;
+
+    }
+
+    .container2 {
+        max-width: 25%;
+        padding-left: 18rem;
+
+    }
+
+}
+
+@media (max-width:350px) {
+    .container{
+        max-width: 40%;
+        min-width: 20%;
+        padding-left: 8rem;
+        padding-right: 12rem;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background: black;
+    }
+    :hover{
+        color:white;
+    }
+    .menu-nav:hover {
+        background-color: white;
+    }
+}

@@ -1,0 +1,48 @@
+.card{
+    height:max-content;
+    width: max-content;
+    position: relative;
+    margin-bottom: 50rem;
+    transition:all 1s linear;
+    transform-style: preserve-3d;
+}
+
+.carta{
+    width: 300px;
+    height: 450px;
+    margin: 30px;
+}
+
+.front, .back{
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Roboto";
+    border-radius: 10px;
+    position: absolute;
+}
+
+.front{
+   
+    z-index: 2;
+    backface-visibility: hidden;
+}
+
+.back{
+  
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+.container2:hover .card{
+    transform: rotateY(180deg);
+}
+
+.container2{
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+}
